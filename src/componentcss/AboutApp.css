@@ -1,0 +1,53 @@
+
+/* =====================================
+5. APP ABOUT AREA
+===================================== */
+
+#app-about-area .section-heading {
+    margin-bottom: 0;
+}
+.about-app h3 {
+    margin-bottom: 30px;
+}
+.about-app p {
+    margin-bottom: 35px;
+}
+.store-buttons {
+    margin-top: 50px;
+}
+.store-buttons a {
+    text-align: left;
+}
+.store-buttons a i, .store-buttons a p {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.about-app .store-buttons a:hover i, .about-app .store-buttons a:hover p {
+    color: #fff;
+}
+.store-buttons a p {
+    line-height: 1.2;
+}
+.store-buttons i {
+    color: #fff;
+    font-size: 24px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.about-app .store-buttons i {
+    color: #2b323f;
+}
+.store-buttons span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.about-app-mockup img {
+    margin-left: auto;
+}
+.gray-bg .btn.btn-bordered-grad:after {
+    background: #f5f7fb none repeat scroll 0 0;
+}
+.btn.btn-style-2:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}

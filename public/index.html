@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/elements.css">
+    <link rel="stylesheet" href="../src/css/color-variation.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/responsive.css">
+    <link rel="stylesheet" href="../src/css/icofont.css">
+    
+    <script src="../src/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <script async defer
+	
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoGzvBEdXCPR4rZR_DqbOmy4il__1oOxc&callback=initMap">
+    </script>
+    <script>
+    function  initMap() {
+    const google = window.google;
+    var uluru = {lat: 17.517997, lng: 78.3914092};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+    </script>
+
+    <style>
+        #map {
+          height: 400px;
+          width: 100%;
+         }
+      </style>
+    <title>Wibes</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    
+    <script src="../src/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../src/js/bootstrap.min.js"></script>
+    <script src="../src/js/slick.min.js"></script>
+    <script src="../src/js/swiper.min.js"></script>
+    <script src="../src/js/plugins.js"></script>
+    <script src="../src/js/ajax-mail.js"></script>
+    <script src="../src/js/ajax-subscribe.js"></script>
+    <!-- map js -->
+    
+    <script src="../src/js/appai.map-2.js"></script>
+    <script src="../src/js/main.js"></script>
+    
+
+  </body>
+</html>

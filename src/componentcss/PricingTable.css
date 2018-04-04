@@ -1,0 +1,106 @@
+
+/* =====================================
+13. PRICING TABLE AREA
+===================================== */
+
+#pricing-table-area {
+    background: rgba(0, 0, 0, 0) url("../img/bg/4.jpg") no-repeat scroll center center / cover;
+}
+.single-price-table {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.single-price-table:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.doller-sign {
+    font-size: 18px;
+    bottom: 0;
+}
+.duration {
+    color: #4c5462;
+    font-size: 12px;
+    font-weight: 400;
+    bottom: 0;
+    text-transform: capitalize;
+}
+.plan-title {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 20px 0;
+}
+.price-value {
+    margin: 0;
+    padding: 20px 0;
+}
+.pricing-content {
+    padding: 40px 0;
+}
+.table-content li {
+    color: #4c5462;
+    margin-bottom: 15px;
+}
+.table-content li:last-child {
+    margin-bottom: 0;
+}
+.pricing-footer {
+    padding: 20px 0 30px;
+    position: relative;
+    z-index: 1;
+}
+.pricing-footer .btn-grad:before {
+  background: #fff none repeat scroll 0 0;
+}
+.pricing-footer .btn-grad:hover:before {
+    background: transparent none repeat scroll 0 0;
+}
+.pricing-footer .btn {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.pricing-footer a:hover {
+    color: #000;
+}
+.pricing-footer:after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.pricing-footer:before {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: -1;
+}
+.single-price-table:hover .pricing-footer:before {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.single-price-table:hover .btn.btn-bordered-grad:after {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.single-price-table:hover .price-value {
+    color: #00c9fd;
+}
+.single-price-table:hover .pricing-footer p, .single-price-table:hover .pricing-footer a {
+    color: #fff;
+}

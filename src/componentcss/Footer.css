@@ -1,0 +1,29 @@
+
+/* =====================================
+19. FOOTER AREA
+===================================== */
+
+#footer-area {
+    background-color: #2b323f;
+    padding-bottom: 45px;
+    padding-top: 23em;
+}
+#footer-area .social {
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+.copyright p {
+    color: #fff;
+    margin-bottom: 0;
+}
+.copyright a {
+    color: #00c9fd;
+}
+
+/* =====================================
+19.1. FOOTER AREA HOME STYLE 2
+===================================== */
+
+.home-style-2 .copyright a {
+    color: #ee0f6f;
+}

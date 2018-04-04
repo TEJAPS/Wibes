@@ -1,0 +1,59 @@
+
+/* =====================================
+16. BLOG AREA
+===================================== */
+
+.post-content {
+    margin-top: 10px;
+}
+.meta-info {
+    margin-bottom: 15px;
+}
+.post-title {
+    color: #2b323f;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.post-title a:hover {
+    color: #00c9fd;
+}
+.read-more-wrapper {
+    margin-top: 30px;
+}
+.post-content .read-more-btn {
+    color: #2b323f;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+}
+.post-content .read-more-btn:hover {
+    color: #00c9fd;
+}
+.meta-info li, .meta-info li a {
+    color: #757575;
+}
+.meta-info a:hover {
+    color: #00c9fd;
+}
+.read-more-btn i {
+    color: inherit;
+    font-size: 24px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.read-more-btn:hover i {
+    color: #00c9fd;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    right: -25px;
+}
+

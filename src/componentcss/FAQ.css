@@ -1,0 +1,110 @@
+
+/* =====================================
+14. FAQ AREA
+===================================== */
+
+.faq-content-wrapper {
+    position: relative;
+}
+.faq-content-wrapper:before {
+    background-color: #70798f;
+    content: "";
+    height: calc(100% - 60px);
+    left: -40px;
+    position: absolute;
+    top: 30px;
+    width: 1px;
+}
+.panel-heading:before {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 50px;
+    content: "";
+    height: 15px;
+    left: -48px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 15px;
+}
+.faq-right-img-mockup {
+    left: -200px;
+    position: absolute;
+}
+.panel-group {
+ margin:0;
+}
+
+#accordion.panel-group .panel {
+    border-radius: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+    position: relative;
+}
+.panel:before {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -2px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+#accordion .panel:first-child {
+    margin-top: 0;
+}
+.panel-group .panel-body {
+    border: 0 none;
+    padding: 0 30px 10px;
+}
+#accordion .panel-body {
+    border: 0 none;
+}
+.panel-heading {
+    border: 0 none;
+    border-radius: 0;
+    margin: 0;
+    padding: 20px 30px;
+    position: relative;
+}
+.panel-title {
+    color: #4c5462;
+    font-size: 18px;
+}
+.panel-title a {
+    color: inherit;
+    display: block;
+    position: relative;
+}
+.panel-title a.collapsed:after {
+    content: "\f0a5";
+}
+.panel-title a:after {
+    border: 1px solid #00c9fd;
+    border-radius: 50px;
+    color: #00c9fd;
+    content: "";
+    font-family: Icofont;
+    font-size: 12px;
+    font-weight: normal;
+    height: 22px;
+    line-height: 20px;
+    position: absolute;
+    right: -22px;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 22px;
+}
+
+/* =====================================
+14.1. FAQ AREA HOME STYLE 2
+===================================== */
+
+.faq-home-2 .faq-right-img-mockup {
+    left: auto;
+    right: -70px;
+}

@@ -1,0 +1,95 @@
+
+#team-area {
+    background: rgba(0, 0, 0, 0) url("../img/bg/some.jpg") no-repeat scroll center center / cover;
+}
+#team-area .section-heading h2, #team-area .section-heading p {
+    color: #fff;
+}
+.single-member {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+.member-description {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, rgba(0, 201, 253, 0.95) 0%, rgba(129, 238, 142, 0.95) 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(0, 201, 253, 0.95) 0%, rgba(129, 238, 142, 0.95) 100%) repeat scroll 0 0;
+    height: 100%;
+    left: 15px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.single-member:hover .member-description {
+    left: 30px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    top: 30px;
+}
+.member-description-inner {
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.member-name {
+    margin-bottom: 5px;
+}
+.designation {
+    color: #fff;
+    font-weight: 600;
+}
+.short-description {
+    color: #fff;
+}
+.social {
+    margin: 0;
+}
+.social a {
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 100px;
+    color: #70798f;
+    display: inline-block;
+    font-size: 16px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 35px;
+    z-index: 1;
+}
+.social a:after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    border-radius: 100px;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: -1;
+}
+.social a:hover:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.social a:hover {
+    color: #fff;
+}
+.social i {
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,39 @@
+
+/* =====================================
+15. APP DOWNLOAD AREA
+===================================== */
+
+.download-app h1 {
+    margin-bottom: 15px;
+}
+#app-download-area {
+    position: relative;
+}
+#app-download-area:after {
+    background: rgba(0, 0, 0, 0) url("../img/mockups/download-app-mockup.png") no-repeat scroll right bottom;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.download-app {
+    position: relative;
+    z-index: 1;
+}
+.download-app h1, .download-app p {
+    color: #fff;
+}
+.download-app h1 {
+    margin-bottom: 15px;
+}
+
+/* =====================================
+15.1. APP DOWNLOAD AREA HOME STYLE 2
+===================================== */
+
+#app-download-area.home-style-2:after {
+    background: rgba(0, 0, 0, 0) url("../img/mockups/download-app-mockup-2.png") no-repeat scroll right bottom;
+}

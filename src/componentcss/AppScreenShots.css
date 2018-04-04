@@ -1,0 +1,166 @@
+/* =====================================
+5. APP ABOUT AREA
+===================================== */
+
+#app-about-area .section-heading {
+    margin-bottom: 0;
+}
+.about-app h3 {
+    margin-bottom: 30px;
+}
+.about-app p {
+    margin-bottom: 35px;
+}
+.store-buttons {
+    margin-top: 50px;
+}
+.store-buttons a {
+    text-align: left;
+}
+.store-buttons a i, .store-buttons a p {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.about-app .store-buttons a:hover i, .about-app .store-buttons a:hover p {
+    color: #fff;
+}
+.store-buttons a p {
+    line-height: 1.2;
+}
+.store-buttons i {
+    color: #fff;
+    font-size: 24px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.about-app .store-buttons i {
+    color: #2b323f;
+}
+.store-buttons span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.about-app-mockup img {
+    margin-left: auto;
+}
+.gray-bg .btn.btn-bordered-grad:after {
+    background: #f5f7fb none repeat scroll 0 0;
+}
+/*----------------------------------------------------------*/
+
+
+
+.slider-wrapper-2 .slide {
+    margin: 0 15px;
+}
+.slider-wrapper-2 .slider-image {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 5px 0 10px;
+    position: relative;
+}
+.slider-wrapper-2 .slider-image:hover .preview-icon {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.preview-icon {
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 100%;
+    margin: 0 auto;
+}
+.preview-icon i {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 70px;
+    color: #fff;
+    font-size: 30px;
+    height: 70px;
+    left: 0;
+    line-height: 70px;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 70px;
+}
+.slider-wrapper-2.slick-dotted.slick-slider {
+    margin-bottom: 60px;
+}
+.slick-dots li {
+    border: 1px solid #3AD7DF;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    margin: 0 5px;
+    padding: 0;
+    position: relative;
+    width: 12px;
+}
+.slick-dots li.slick-active {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    border: medium none;
+}
+.slick-dots li button {
+    display: none;
+}
+.slick-dots {
+    bottom: 70px;
+}
+#app-screenshot-area .slick-dots {
+    bottom: -70px;
+}
+.swiper-container {
+    width: 100%;
+    padding-bottom: 60px;
+}
+.swiper-slide {
+    width: 390px;
+    height: auto;
+    padding: 0 15px;
+}
+.swiper-slide img {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.swiper-slide .slider-image .preview-icon {
+    z-index: -1;
+    width: calc(100% - 30px);
+}
+.swiper-slide.swiper-slide-active .slider-image:hover .preview-icon {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    z-index: 1;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0;
+}
+.swiper-pagination-bullet {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #ee0f6f;
+    border-radius: 100%;
+    display: inline-block;
+    height: 12px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    width: 12px;
+}
+.swiper-pagination-bullet-active {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0f6f 0%, #f89482 100%) repeat scroll 0 0;
+    border: medium none;
+    height: 12px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    width: 12px;
+}

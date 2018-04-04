@@ -1,0 +1,31 @@
+29-03-18
+installed bootstrap  andd added two links in index.js
+for now the main id- preload-wrapper kept aside 
+added header as component (no css, nothing)
+
+
+instlled react-clearfix for <Clearfix/>
+icofont now working in AwesomFeatures component even after downloading it in font folder
+
+video display is not wroking
+
+trying to add map - installed react-google-maps
+
+have to do map part, components , designing , prop n states
+
+30-03-18
+map is working in index.html but is not working when is coded in 
+
+in css left  20.1 20.2 20.3 i.e(whole 20) , 21 and 22 and 23 ,25 also left
+26 addded in slider area 1 (below header wala content)
+installed font-awesome and added link to index.js import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+
+31-03-18
+pasted the whole style.css into index.css(later will remove style from css component wise will be added seperately later)
+facing problem with font and animate , so tryng to achieve it through carousel
+installed react-responsive-carousel
+
+4pm
+Map is working fine
+not able to display block elements horizontally (kept it aside)
+working on making inside parts as components

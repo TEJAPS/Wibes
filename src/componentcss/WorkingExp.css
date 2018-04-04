@@ -1,0 +1,46 @@
+
+/* =====================================
+6. HOW IT WORKS AREA
+===================================== */
+
+#how-it-works-area .section-heading {
+    margin-bottom: 50px;
+}
+.hiw-feature {
+    padding: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.hiw-feature:hover {
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.hiw-feature-content {
+    position: relative;
+}
+.hiw-mockup {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 45px;
+}
+.hiw-feature-icon img {
+    margin-top: 15px;
+}
+.hiw-feature-details h5 {
+    text-transform: uppercase;
+}
+.hiw-feature-details p {
+    margin-bottom: 0;
+}
+
+/* =====================================
+6.1. HOW IT WORKS AREA HOME STYLE 2
+===================================== */
+
+.hiw-feature-content.style-2 {
+    margin-top: 50px;
+}
+.hiw-mockup.style-2 {
+    top: -20px;
+}

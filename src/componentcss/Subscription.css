@@ -1,0 +1,46 @@
+
+/* =====================================
+17. SUBSCRIBE AREA
+===================================== */
+
+.subscribe-wrapper {
+    background-color: #2b323f;
+    padding: 40px 100px;
+}
+.subscribe-text h2 {
+    color: #fff;
+    margin-right: 20px;
+    padding-top: 17px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.subscribe-box {
+    position: relative;
+}
+.subscribe-box .form-control {
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 50px;
+    box-shadow: none;
+    color: #4c5462;
+    font-size: 18px;
+    height: 65px;
+    padding: 0 158px 0 50px;
+}
+.subscribe-box .form-control::-moz-placeholder {
+    color: #4c5462;
+    font-size: 18px;
+}
+.subscribe-box button {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    border: medium none;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 36px;
+    height: 65px;
+    padding: 0 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

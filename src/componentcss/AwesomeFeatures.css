@@ -1,0 +1,62 @@
+
+/* =====================================
+7. AWESOME FEATURES AREA
+===================================== */
+
+#awesome-features-area {
+    background: rgba(0, 0, 0, 0) url("../img/bg/1.jpg") no-repeat scroll center center / cover;
+}
+#awesome-features-area .section-heading {
+    margin-bottom: 0;
+}
+#awesome-features-area .awesome-feature {
+    margin-top: 80px;
+}
+#awesome-features-area .media-left {
+    padding-right: 20px;
+}
+.awesome-feature-icon span {
+    display: block;
+    height: 60px;
+    margin-left: 10px;
+    position: relative;
+    width: 60px;
+}
+.awesome-feature-icon span:after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #00c9fd 0%, #81ee8e 100%) repeat scroll 0 0;
+    border-radius: 50px;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.awesome-feature-icon i {
+    background-color: #f5f7fa;
+    border-radius: 60px;
+    color: #4c5462;
+    display: inline-block;
+    font-size: 24px;
+    height: calc(100% - 2px);
+    left: 1px;
+    line-height: 58px;
+    position: relative;
+    text-align: center;
+    top: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: calc(100% - 2px);
+    z-index: 1;
+}
+.awesome-feature:hover .awesome-feature-icon i {
+    background: transparent;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.asesome-feature-details h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+}

@@ -1,0 +1,20 @@
+
+#fun-fact-area {
+    background: rgba(0, 0, 0, 0) url("../img/bg/some.jpg") no-repeat scroll center center / cover;
+    padding: 220px 0 100px;
+}
+.single-fact i {
+    color: #fff;
+    display: inline-block;
+    font-size: 48px;
+    margin-bottom: 28px;
+}
+.single-fact h5 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.single-fact h2 {
+    color: #fff;
+    font-size: 30px;
+}
